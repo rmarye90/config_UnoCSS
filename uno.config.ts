@@ -10,12 +10,18 @@ import {
 export default defineConfig({
     shortcuts: [
         // ...
-      ],
-      theme: {
+    ],
+    theme: {
+        breakpoints: {
+            // ... media queries
+        },
         colors: {
           // ...
         }
-      },
+    },
+    rules: [
+        // ...
+    ],
     presets: [
         presetAttributify({ /* preset options */}),
         presetUno({ /* preset options */}),
